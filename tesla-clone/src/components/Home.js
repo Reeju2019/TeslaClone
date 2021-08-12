@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from "styled-components";
 import Section from './Section';
 
 function Home() {
     return (
         <Container>
-            <Section 
+            <Section
                 title="Model S"
                 description="Order Online for Touchless Delivery"
                 backgroundImg="model-s.jpg"
@@ -46,6 +46,12 @@ function Home() {
                 backgroundImg="solar-roof.jpg"
                 leftBtnText="Order Now"
                 rightBtnText="Learn More"
+            />
+            <Section 
+                title="Accessories"
+                description=""
+                backgroundImg="accessories.jpg"
+                leftBtnText="Shop now"
             />
         </Container>
     )
