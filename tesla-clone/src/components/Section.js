@@ -2,12 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade'
 
-function Section({ title, description, leftBtnText, rightBtnText, backgroundImg }) {
+function Section({ title, id, description, leftBtnText, rightBtnText, backgroundImg }) {
     return (
         <Wrap bgImage={backgroundImg}>
             <Fade bottom>
                 <ItemText>
-                    <h1>{ title }</h1>
+                    <h1 id={id}>{ title }</h1>
                     <p>{ description }</p>
                 </ItemText>  
             </Fade>
